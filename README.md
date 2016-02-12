@@ -68,8 +68,8 @@ The line should look like this :
 
 runuser -l imapbox -c 'sh /home/imapbox/Imapbox_Deamon.sh &' &
 
+# Additional Notes
 
-
-
+If you look into Imapbox_Deamon.sh you can see that there are some filters for the files that are downloaded, feel free to modify those filters to better suit your needs.
 
 
