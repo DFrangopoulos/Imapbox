@@ -15,4 +15,4 @@ remotehost = imap.YOUR_EMAIL_SERVER
 remoteuser = YOUR_EMAIL_USERNAME	
 remotepass = YOUR_EMAIL_PASSWORD
 ssl = yes
-cert_fingerprint = YOUR_CERT_FIGERPRINT
+#cert_fingerprint = YOUR_CERT_FIGERPRINT
