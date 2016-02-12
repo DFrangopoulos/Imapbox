@@ -1,0 +1,18 @@
+[general]
+accounts =Email
+
+[Account Mail]
+localrepository = Local
+remoterepository = Remote
+
+[Repository Local]
+type = Maildir
+localfolders = /home/imapbox/Email
+
+[Repository Remote]
+type = IMAP
+remotehost = imap.YOUR_EMAIL_SERVER
+remoteuser = YOUR_EMAIL_USERNAME	
+remotepass = YOUR_EMAIL_PASSWORD
+ssl = yes
+cert_fingerprint = YOUR_CERT_FIGERPRINT
