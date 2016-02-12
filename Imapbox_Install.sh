@@ -18,7 +18,7 @@
 
 #To be placed in /home/pi and executed with elevated privileges.
 
-apt-get install offlineimap mpack curl bash -y
+apt-get install nano offlineimap mpack curl bash -y
 adduser imapbox
 
 mv Imapbox_Deamon.sh /home/imapbox
