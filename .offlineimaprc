@@ -1,5 +1,5 @@
 [general]
-accounts =Email
+accounts = Email
 
 [Account Mail]
 localrepository = Local
