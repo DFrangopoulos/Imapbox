@@ -22,7 +22,7 @@ run "nano .offlineimaprc"
 
 Replace YOUR_EMAIL_SERVER with the email server of your email provider. For example if your email provider is zoho.com then YOUR_EMAIL_SERVER=zoho.com and line 14 should look like remotehost = imap.zoho.com
 
-Replace YOUR_EMAIL_USERNAME with your email username. For example if your email address is test123@zoho.com : YOUR_EMAIL_USERNAME=test123.
+Replace YOUR_EMAIL_USERNAME with your email username. For example if your email address is test123@<your_provider>.com : YOUR_EMAIL_USERNAME=test123.
 
 Replace YOUR_EMAIL_PASSWORD with your email password.
 
