@@ -20,9 +20,9 @@ run "cd imapbox"
 
 run "nano .offlineimaprc"
 
-Replace YOUR_EMAIL_SERVER with the email server of your email provider. For example if your email provider is zoho.com then YOUR_EMAIL_SERVER=zoho.com and line 14 should look like remotehost = imap.zoho.com
+Replace YOUR_EMAIL_SERVER with the email server of your email provider. For example if your email provider is some_provider.com then YOUR_EMAIL_SERVER=some_provider.com and line 14 should look like remotehost = imap._some_provider.com
 
-Replace YOUR_EMAIL_USERNAME with your email username. For example if your email address is test123@<your_provider>.com : YOUR_EMAIL_USERNAME=test123.
+Replace YOUR_EMAIL_USERNAME with your email username. For example if your email address is test123@some_provider.com : YOUR_EMAIL_USERNAME=test123.
 
 Replace YOUR_EMAIL_PASSWORD with your email password.
 
@@ -32,7 +32,7 @@ CTRL+O to save the changes and CTRL+X to exit.
 
 run "offlineimap"
 
-You should be greeted by and error : "ERROR: Server SSL fingerprint 'YOUR_CERT_FINGERPRINT' for hostname 'imap.zoho.com' does not match configured fingerprint. Please verify and set 'cert_fingerprint' accordingly if not set yet."
+You should be greeted by and error : "ERROR: Server SSL fingerprint 'YOUR_CERT_FINGERPRINT' for hostname 'imap.some_provider.com' does not match configured fingerprint. Please verify and set 'cert_fingerprint' accordingly if not set yet."
 
 run "nano .offlineimaprc"
 
